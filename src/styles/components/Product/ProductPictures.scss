@@ -1,0 +1,28 @@
+      .main-image {
+      margin-right: 20px;
+  
+      img {
+        width: 470px;
+        height: 550px;
+        object-fit: cover;
+        object-position: 60% 0;
+      }
+    }
+  
+    .small-images {
+      display: flex;
+      flex-direction:row;
+  
+      img {
+        width: 154px;
+        height: 154px;
+        margin-right: 4px;
+        object-fit: cover;
+        object-position: 60% 0;
+      }
+
+      .smallproduct3 {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+    }

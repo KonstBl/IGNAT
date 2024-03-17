@@ -1,0 +1,101 @@
+.similarProducts {
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 70%;
+
+    h2 {
+      font-size: 26px;
+      font-weight: 500;
+      color: rgba(52, 52, 52, 1);
+    }
+  }
+  
+  .productsContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
+  .desc, .price, .name {
+    display: flex;
+    justify-content: start;
+  }
+
+  .name {
+    margin-top: 2px;
+    margin-bottom: 9px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(52, 52, 52, 1);
+  }
+
+  .desc {
+    color: rgba(98, 98, 98, 1);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 400;
+  }
+
+  .price {
+    margin-top: 9px;
+    font-weight: 700;
+    font-size: large;
+    color: rgba(74, 170, 78, 1);
+  }
+  
+  .product {
+    position: relative;
+    text-align: center;
+    margin-right: 15px;
+  }
+  
+  .productImage {
+    width: 370px;
+    height: 433px;
+    border-radius: 3px;
+    object-fit: cover;
+  }
+
+  .likeButton {
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .likeButton:hover {
+    cursor: pointer;
+  }
+
+  .watchMore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chevronIcon {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+  }
+
+  .watchMoreText {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(98, 98, 98, 1);
+  }
+
+  .watchMoreText:hover {
+    cursor: pointer;
+  }

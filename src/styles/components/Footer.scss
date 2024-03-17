@@ -1,0 +1,33 @@
+.footer {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 93px;
+    background: rgba(52, 52, 52, 1);
+    color: rgba(255, 255, 255, 1);
+
+  }
+  
+  .leftLinks {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+  }
+  
+  .leftLinks a {
+    margin-right: 30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .rightText {
+    font-weight: 400;
+    margin-right: 90px;
+    color: white;
+  }
+  
+  .leftLinks :hover {
+    cursor: pointer;
+  }

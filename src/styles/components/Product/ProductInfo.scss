@@ -1,0 +1,19 @@
+.bg {
+    display: flex;
+    justify-content: center;
+}
+
+.product-info {
+    display: flex;
+    align-items: flex-start;
+    width: 70%;
+  
+    .details {
+      flex: 1;
+
+      h2 {
+        margin-top: 0;
+      }
+    }
+  }
+  
