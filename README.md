@@ -4,7 +4,7 @@ Test task for Vero Casa company.
 
 ## Deployment
 
-[press here]()
+[press here](https://konstbl.github.io/IGNAT/)
 
 ## Instalation
 
