@@ -1,33 +1,33 @@
 .footer {
-    font-family: "Montserrat", sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    height: 93px;
-    background: rgba(52, 52, 52, 1);
-    color: rgba(255, 255, 255, 1);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.11vw;
+  height: 3.78vw;
+  background: rgba(52, 52, 52, 1);
+  color: rgba(255, 255, 255, 1);
+}
 
-  }
-  
-  .leftLinks {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 90px;
-  }
-  
-  .leftLinks a {
-    margin-right: 30px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 1);
-  }
-  
-  .rightText {
-    font-weight: 400;
-    margin-right: 90px;
-    color: white;
-  }
-  
-  .leftLinks :hover {
-    cursor: pointer;
-  }
+.leftLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7.5vw;
+}
+
+.leftLinks a {
+  margin-right: 1.78vw;
+  font-weight: 400;
+  font-size: 1vw;
+  color: rgba(255, 255, 255, 1);
+}
+
+.rightText {
+  font-weight: 400;
+  margin-right: 7.5vw;
+  color: white;
+}
+
+.leftLinks :hover {
+  cursor: pointer;
+}

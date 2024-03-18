@@ -1,114 +1,96 @@
-.details {
+.name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: rgba(52, 52, 52, 1);
+    margin-bottom: 0.5vw;
+}
 
-    .name {
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 26px;
-        color: rgba(52, 52, 52, 1);
-        margin-bottom: 0px;
-      }
-  
-      .type {
-        margin-top: 0px;
-        margin-bottom: 0;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        color: rgba(98, 98, 98, 1);
-        font-size: medium;
-      }
+.type {
+    margin-top: 0;
+    margin-bottom: 0.5vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgba(98, 98, 98, 1);
+    font-size: 0.9vw;
+}
 
-      .price {
-        margin-top: 0;
-        font-family: "Roboto", sans-serif;
-        font-size: large;
-        color: rgba(74, 170, 78, 1);
-      }
+.price {
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1vw;
+    color: rgba(74, 170, 78, 1);
+}
 
-      .infoHeader {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        color: rgba(98, 98, 98, 1);
-      }
+.infoHeader {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    color: rgba(98, 98, 98, 1);
+}
 
-      .info {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        color: rgba(149, 149, 149, 1);
-        width: 600px;
-        word-wrap: break-word;
+.info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    color: rgba(149, 149, 149, 1);
+}
 
-        h4 {
-          color: black;
-        }
-      }
+hr {
+    margin-top: 2vw;
+    border: 1px solid rgba(204, 204, 204, 1);
+}
 
-      hr {
-        margin-top: 40px;
-        border: 1px solid rgba(204, 204, 204, 1)
-      }
+.order {
+    display: flex;
+    align-items: center;
+    margin-top: 1vw;
+}
 
-      .order {
-        display: flex;
-        align-items: center;
-        margin-top: 15px;
-      }
+.orderButton,
+.creditButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8vw;
+    border-radius: 1vw;
+    border: none;
+    width: 16vw;
+    height: 2vw;
+    padding: 1.5vw;
+    margin-right: 1.5vw;
+    cursor: pointer;
+}
 
-      .orderButton {
-        font-family: "Roboto", sans-serif;
-        border-radius: 15px;
-        border: none;
-        width: 269px;
-        height: 55px;
-        padding: 22px, 46px, 22px, 46px;
-        margin-right: 20px;
-        background: rgba(0, 0, 0, 1);
-        color: rgba(255, 255, 255, 1);
-      }
+.orderButton {
+    background-color: black;
+    color: white;
+}
 
-      .orderButton:hover {
-        cursor: pointer;
-      }
+.orderButton:hover,
+.creditButton:hover {
+    cursor: pointer;
+}
 
-      .creditButton:hover {
-        cursor: pointer;
-      }
+.creditButton {
+    border: 1px solid black;
+    background: white;
+}
 
-      .creditButton {
-        font-family: "Roboto", sans-serif;
-        border-radius: 15px;
-        border: 1px solid black;
-        width: 269px;
-        height: 55px;
-        margin-right: 20px;
-        padding: 22px, 46px, 22px, 46px;
-        background: white;
-      }
+.heartButton,
+.cartButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 1.5vw;
+}
 
-      .heartButton {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        padding: 0;
-        margin-right: 15px;
-      }
-
-      .cartButton {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        padding: 0;
-      }
-
-      .sizeColor{
-
-        .choose {
-            font-family: "Roboto", sans-serif;
-            color: rgba(52, 52, 52, 1);
-            font-weight: 400;
-            font-size: 14px;
-            margin-bottom: 5px;
-          }
-      }
+.sizeColor .choose {
+    font-family: "Roboto", sans-serif;
+    color: rgba(52, 52, 52, 1);
+    font-weight: 400;
+    font-size: 0.9vw;
+    margin-bottom: 0.25vw;
 }

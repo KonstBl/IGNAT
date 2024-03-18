@@ -7,7 +7,7 @@ export function Header() {
     <div className="headerbg">
     <header className="header">
         <div className="left">
-            <span> {phone} </span>
+            <span className="phoneNumber"> {phone} </span>
             <a> Допомога </a>
         </div>
         <div className="right">

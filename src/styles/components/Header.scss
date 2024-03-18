@@ -1,44 +1,46 @@
 .headerbg {
-    background-color: #343434;
-    display: flex;
-    justify-content: center;
+  background-color: #343434;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .header {
-    color: #ffffff; 
-    padding: 16px 20px;
-    display: flex;
-    width: 70%;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    
-  
-    .left {
-        display: flex;
-        align-items: center;
-  
-      span {
-        margin-right: 40px;
-      }
-  
-      a {
-        color: #ffffff;
-        cursor: pointer;
-        text-decoration: none;
-      }
-    }
-  
-    .right {
+  color: #ffffff;
+  padding: 1% 2%;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1vw;
+
+  .left {
       display: flex;
       align-items: center;
-  
-      a {
-        color: #ffffff;
-        text-decoration: none;
-        padding: 0 2px;
+      width: 30%;
+
+      .phoneNumber {
+          font-size: 0.9vw;
+          margin-right: 10%;
       }
-    }
+
+      a {
+          color: #ffffff;
+          cursor: pointer;
+          text-decoration: none;
+      }
   }
+
+  .right {
+      display: flex;
+      align-items: center;
+
+      a {
+          color: #ffffff;
+          text-decoration: none;
+          padding: 0 1%;
+      }
+  }
+}

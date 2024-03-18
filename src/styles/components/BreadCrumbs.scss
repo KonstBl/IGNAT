@@ -1,9 +1,8 @@
 .nav {
-    font-size: 14px;
-    padding: 1;
-    margin-bottom: 1;
-    font-weight:bold;
-    width: 70%;
+    font-size: 0.8vw; 
+    padding: 0.5vw; 
+    font-weight: bold;
+    width: 80vw; 
 }
 
 .breadcrumbs {
@@ -15,7 +14,6 @@ ol {
     list-style: none;
     display: inline-flex;
     padding-left: 0;
-    padding-bottom: 5px;
 }
 
 li {
@@ -27,5 +25,5 @@ a {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 200;
-    margin-right: 10px;
+    margin-right: 0.3vw;
 }

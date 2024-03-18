@@ -5,12 +5,10 @@
 
 .product-info {
     display: flex;
-    align-items: flex-start;
-    width: 70%;
+    width: 80%;
   
     .details {
-      flex: 1;
-
+      width: 80%;
       h2 {
         margin-top: 0;
       }
